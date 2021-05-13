@@ -1,0 +1,26 @@
+{
+  "name": "cei-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acbchiella/CEI-API.git"
+  },
+  "author": "Antonio Carlos Bana Chiella",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acbchiella/CEI-API/issues"
+  },
+  "homepage": "https://github.com/acbchiella/CEI-API#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cei-crawler": "^2.2.1",
+    "config": "^3.3.3",
+    "express": "^4.17.1"
+  }
+}
